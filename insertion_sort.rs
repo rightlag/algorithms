@@ -8,7 +8,7 @@ fn insertion_sort(A: &mut Vec<i32>) -> &mut Vec<i32> {
         }
         A[j] = tmp;
     }
-    return A;
+    A
 }
 
 fn main() {
