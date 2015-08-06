@@ -4,7 +4,7 @@ fn binary_search(A: Vec<i32>, target: i32) -> i32 {
     while low <= high {
         let mid = (low + high) / 2;
         if target == A[mid] {
-            return mid as i32;
+            return mid as i32
         }
         else if target < A[mid] {
             high = mid - 1;
